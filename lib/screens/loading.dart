@@ -3,10 +3,10 @@
 import 'package:flutter/material.dart';
 import "package:weather_app/data/myLocation.dart";
 import "package:weather_app/data/network.dart";
+import 'package:weather_app/key.dart';
 import "package:weather_app/screens/weather.dart";
 import "package:flutter_spinkit/flutter_spinkit.dart";
 
-const apiKey = "68ab3764f5c848666c9704866ef9bcbc";
 
 class Loading extends StatefulWidget {
   const Loading({ Key? key }) : super(key: key);
